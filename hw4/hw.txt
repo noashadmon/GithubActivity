@@ -32,6 +32,9 @@ Essentially you’ll have to do this:
    SCRIPT IS REALLY BULLET PROOF, and WORKS FIRST TIME, EVERY TIME, regardless of how many ever times you try it. 
    Clearly this shell script will run on the host machine, but will reach into the guts of the NGINX docker, and
    make the swap. It’s rather challenging… But Look carefully at the stuff I’ve given you, you can figure it
-   out. 
+   out.
+
+   goes inside ngnx
+   takes web1 and swaps it with web2 (the running version of the other image)
 
 

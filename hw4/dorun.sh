@@ -25,6 +25,7 @@ docker-compose -p ecs189 up  &
 
 # Initially the reverse proxy points at engineering URL 
 # WE first make it point at the right url, using the init.sh script
+# proxy is the image
 
 sleep 10 && docker exec ecs189_proxy_1 /bin/bash /bin/init.sh
 echo "redirecting to the service" 
